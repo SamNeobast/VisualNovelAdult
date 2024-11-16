@@ -174,6 +174,50 @@ MonoBehaviour:
     - name: HikariBedroom
       pathPrefix: Backgrounds/MainBackground
       guid: 71e1889307ff84a48868fc909f059896
-    - name: lounge
+    - name: Lounge
       pathPrefix: Backgrounds/MainBackground
       guid: 5f3337dd13adc7347a4174801a2aeb28
+    - name: MapSity
+      pathPrefix: Backgrounds/MainBackground
+      guid: 9c5b9b893a5e80d4cb0e6814652c6056
+  - Id: Scripts
+    Resources:
+    - name: StartGame
+      pathPrefix: Scripts
+      guid: 7b0bac6601b2cff4791872381fb8fe3b
+    - name: Map
+      pathPrefix: Scripts
+      guid: 02a4c07ab63d59546bde65e5e0916ec5
+    - name: AliceHome
+      pathPrefix: Scripts
+      guid: 17938e71e5e922441bfbdcf28a50956b
+  - Id: Characters/0ea146b9-6249-4567-aaaa-251238fcde07
+    Resources:
+    - name: idle
+      pathPrefix: Characters/Hikari
+      guid: 0f964da979b891648bbe0473a3ddc51d
+    - name: angry
+      pathPrefix: Characters/Hikari
+      guid: 56fc4b6ecf6c9684ba2a7ad74c704309
+    - name: sad
+      pathPrefix: Characters/Hikari
+      guid: 95db6c0e2c15bd34f852ced7843d0512
+    - name: smile
+      pathPrefix: Characters/Hikari
+      guid: a566cc7921978474893d5786776eaae3
+  - Id: Characters/e67463fb-12ea-4907-8609-75afd53c93e7
+    Resources:
+    - name: idle
+      pathPrefix: Characters/Alice
+      guid: 8500d8eae869ec541b895af79deebecf
+    - name: Angry
+      pathPrefix: Characters/Alice
+      guid: 141b951084fbbfb4eb55f2edb26dc290
+    - name: Happy
+      pathPrefix: Characters/Alice
+      guid: 195d008b9e9fd904b9bfaca8c508ec3b
+    - name: Sad
+      pathPrefix: Characters/Alice
+      guid: 7116fff6254d40d4b8e95e6bc3d2bc18
+  - Id: CharacterAvatars
+    Resources: []

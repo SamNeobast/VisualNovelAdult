@@ -1,0 +1,11 @@
+@back Lounge
+@input playerName summary:"Введіть ваше ім'я"
+@stop
+
+@char Hikari
+Прокидайся, {playerName}! Я зайшла до тебе розбудити на роботу
+Бачу ти прокинувся, тоді іди до Аліси вона тобі покаже твоє робоче місце
+
+@hide Hikari
+@choice  button:MapButtons/Map pos:300,200 handler:ButtonArea goto:Map
+
