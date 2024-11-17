@@ -5,6 +5,8 @@
 Я уже мушу бігти, тому приходи пізніше
 
 @hide Alice
-@choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:Map
+@choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
+@choice  button:MapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
 
 @stop

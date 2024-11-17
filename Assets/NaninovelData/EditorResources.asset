@@ -191,6 +191,9 @@ MonoBehaviour:
     - name: AliceHome
       pathPrefix: Scripts
       guid: 17938e71e5e922441bfbdcf28a50956b
+    - name: StartMiniGame
+      pathPrefix: Scripts
+      guid: ce28f3058c59030439c5d30192d3621a
   - Id: Characters/0ea146b9-6249-4567-aaaa-251238fcde07
     Resources:
     - name: idle
