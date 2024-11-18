@@ -1,12 +1,18 @@
 @back AliceBedroom
 @char Alice
-Привіт {PlayerName}, ти чуть не запізнився
-Заклад в якомути будеш працювати знаходиться через дорогу
-Я уже мушу бігти, тому приходи пізніше
+Привіт {PlayerName}, рада тебе бачити, думала ти уже не прийдеш
+Допоможи мені прибрати речі
 
 @hide Alice
 @choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
-@choice  button:MapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@stop
 
+
+#AfterMiniGame
+
+Дякую за допомогу, тепер тобі треба піти на секретне місце і знайти рожевий камінчик
+
+@choice  button:MapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
 
 @stop

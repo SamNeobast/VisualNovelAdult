@@ -4974,7 +4974,7 @@ GameObject:
   - component: {fileID: 114119502321119188}
   - component: {fileID: 114936347218294100}
   m_Layer: 5
-  m_Name: SettingsUI
+  m_Name: SettingsUI 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
