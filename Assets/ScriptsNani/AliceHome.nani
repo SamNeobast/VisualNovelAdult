@@ -1,5 +1,6 @@
 @back AliceBedroom
 @char Alice
+@addQuest quest:"2 CleanItem"
 Привіт {PlayerName}, рада тебе бачити, думала ти уже не прийдеш
 Допоможи мені прибрати речі
 
@@ -8,9 +9,11 @@
 @stop
 
 
-#AfterMiniGame
+# AfterMiniGame
+@completeQuest quest:"2 CleanItem"
 
 Дякую за допомогу, тепер тобі треба піти на секретне місце і знайти рожевий камінчик
+@addQuest quest:"3 GoInWood"
 
 @choice  button:MapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
 @choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame

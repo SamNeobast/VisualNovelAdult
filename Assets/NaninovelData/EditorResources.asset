@@ -227,3 +227,7 @@ MonoBehaviour:
       guid: 7116fff6254d40d4b8e95e6bc3d2bc18
   - Id: CharacterAvatars
     Resources: []
+  - Id: Movies
+    Resources: []
+  - Id: Unlockables
+    Resources: []

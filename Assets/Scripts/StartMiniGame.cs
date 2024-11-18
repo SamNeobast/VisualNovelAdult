@@ -1,6 +1,7 @@
 ﻿using UnityEngine.SceneManagement;
 using Naninovel;
 using Naninovel.Commands;
+using System.Diagnostics;
 
 [CommandAlias("MiniGame")]
 public class StartMiniGame : Command
@@ -21,6 +22,7 @@ public class StartMiniGame : Command
 
         // Завантажуємо сцену з міні-грою
         SceneManager.LoadScene("Demo");
+        
 
         // Вимикаємо Naninovel камеру
         var naniCamera = Engine.GetService<ICameraManager>().Camera;
