@@ -1,0 +1,22 @@
+@back Wood
+Треба Знайти камінчик
+
+@choice  button:InteractiveStoneItem/BlueStone pos:600,200 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/RedStone pos:-450,-100 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/PinkStone pos:600,-150 handler:ButtonArea goto:Map
+@choice  button:InteractiveStoneItem/YellowStone pos:300,-120 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/VioletStone pos:-150,-150 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/GreenStone pos:-700,0 handler:ButtonArea goto:.BadChoice
+@stop
+
+# BadChoice
+Не схоже на те що просила Аліса
+
+@choice  button:InteractiveStoneItem/BlueStone pos:600,200 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/RedStone pos:-450,-100 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/PinkStone pos:600,-150 handler:ButtonArea goto:Map
+@choice  button:InteractiveStoneItem/YellowStone pos:300,-120 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/VioletStone pos:-150,-150 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/GreenStone pos:-700,0 handler:ButtonArea goto:.BadChoice
+
+@stop

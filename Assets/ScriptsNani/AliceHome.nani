@@ -5,7 +5,7 @@
 Допоможи мені прибрати речі
 
 @hide Alice
-@choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
 @stop
 
 
@@ -15,7 +15,7 @@
 Дякую за допомогу, тепер тобі треба піти на секретне місце і знайти рожевий камінчик
 @addQuest quest:"3 GoInWood"
 
-@choice  button:MapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
-@choice  button:MapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:StartMiniGame
 
 @stop

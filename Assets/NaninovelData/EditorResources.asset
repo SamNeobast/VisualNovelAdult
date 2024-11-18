@@ -183,6 +183,9 @@ MonoBehaviour:
     - name: MapSity
       pathPrefix: Backgrounds/MainBackground
       guid: 9c5b9b893a5e80d4cb0e6814652c6056
+    - name: Wood
+      pathPrefix: Backgrounds/MainBackground
+      guid: f78b3756fa4ac644fb93c8e6e363a74b
   - Id: Scripts
     Resources:
     - name: StartGame
@@ -197,6 +200,9 @@ MonoBehaviour:
     - name: StartMiniGame
       pathPrefix: Scripts
       guid: ce28f3058c59030439c5d30192d3621a
+    - name: Wood
+      pathPrefix: Scripts
+      guid: f54c3eb6a4fe82a47ae686e2d39f2d0b
   - Id: Characters/0ea146b9-6249-4567-aaaa-251238fcde07
     Resources:
     - name: idle
