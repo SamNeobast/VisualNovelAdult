@@ -1,0 +1,10 @@
+@back HikariBedroom
+@char Hikari
+
+{playerName}, я зараз зайнята, зайди пізніше
+
+@hide Hikari
+
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+
+@stop

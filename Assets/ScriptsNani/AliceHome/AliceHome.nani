@@ -1,6 +1,8 @@
 @hideChars
 
 @checkQuest name:"1 VisitAlice" gotoIfTrue:AliceHomeQuest1VisitAlice
+@checkQuest name:"4 GivePinkStoneAlice" gotoIfTrue:AliceHomeQuest4GivePinkStoneAlice
+
 
 
 

@@ -215,6 +215,18 @@ MonoBehaviour:
     - name: WoodQuestFindPinkStone
       pathPrefix: Scripts
       guid: d5bf7332569b2224c92358a083ac89ec
+    - name: AliceHomeQuest4GivePinkStoneAlice
+      pathPrefix: Scripts
+      guid: 2fed1c3f30579d941ab8af98b8c0c123
+    - name: HikariHome
+      pathPrefix: Scripts
+      guid: 395f848ab8837fe418f28ba950f8e0a1
+    - name: HikariHomeDefault
+      pathPrefix: Scripts
+      guid: 16043cc468de6c24c8324dfb35647161
+    - name: HikariHomeQuest5FindAlice
+      pathPrefix: Scripts
+      guid: 2270f8b5731903049aeb7aee93e907e3
   - Id: Characters/0ea146b9-6249-4567-aaaa-251238fcde07
     Resources:
     - name: idle

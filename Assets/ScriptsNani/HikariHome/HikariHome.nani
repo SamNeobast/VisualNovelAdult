@@ -1,0 +1,7 @@
+@hideChars
+
+@checkQuest name:"5 FindAlice" gotoIfTrue:HikariHomeQuest5FindAlice
+
+
+@goto HikariHomeDefault
+@stop
