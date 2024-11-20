@@ -1,12 +1,36 @@
 @back AliceBedroom
-@char Alice
 
-{playerName}, я зараз трішки зайнята, давай пізніше поговоримо
- 
+@if MainItemOwner=="Alice"
+@goto .GoodRelationshipWithAlice
+@elseif MainItemOwner=="Hikari" || MainItemOwner=="Player"
+@goto .BadRelationshipWithAlice
+@else 
+@goto .NeutralRelationshipWithAlice
+@endif
+@stop
+
+# GoodRelationshipWithAlice
+Alice.Happy:  {playerName}, рада тебе бачити, вибач але я трішки зайнята
 @hide Alice
 
 @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
 @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@stop
 
 
+# NeutralRelationshipWithAlice
+@char Alice
+{playerName}, я зараз трішки зайнята, давай пізніше поговоримо
+@hide Alice
+
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@stop
+
+# BadRelationshipWithAlice
+Alice.Angry:  {playerName}, я не маю на тебе часу іди звідси!
+@hide Alice
+
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
 @stop

@@ -14,6 +14,8 @@ Hikari:  Ось {playerName} прийшов, нехай сам вирішить 
 @stop
 
 # GiveStoveAlice
+@set MainItemOwner="Alice"
+
 Alice: Дуже дякую {playerName}
 Hikari: Я в шоці не хочу більше тут знаходитись!
 @hide Hikari
@@ -28,6 +30,8 @@ Hikari: Це було неймовірно
 @stop
 
 # GiveStoneHikari
+@set MainItemOwner="Hikari"
+
 Hikari: Дуже дякую {playerName}
 Alice: Я думала ти принесеш його мені
 Alice: Я йду до себе додому!
@@ -43,8 +47,11 @@ Hikari: Це було неймовірно
 @stop
 
 # TakeForOneself
-Hikari: Справді краще залиш у себе ніж, віддаш його Алісі
-Alice: Я тоже так думаю, краще він не дістанеться нікому
+@set MainItemOwner="Player"
 
+Hikari: Ну і залишай цей мусор собі!
+Alice: Він мені тоже не дуже був потрібний
+Hikari: Геть двоє з мого дому!
 
+@goto Map
 @stop
