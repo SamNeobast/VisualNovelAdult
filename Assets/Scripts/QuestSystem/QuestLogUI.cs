@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class QuestLogUI : MonoBehaviour
 {
-    public Text NameQuest;
-    public Text Description; 
+    [SerializeField] private Text NameQuest;
+    [SerializeField] private Text Description;
 
     private void OnEnable()
     {

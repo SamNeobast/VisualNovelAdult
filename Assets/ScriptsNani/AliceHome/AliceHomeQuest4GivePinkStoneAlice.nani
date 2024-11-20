@@ -1,6 +1,6 @@
 
 
-@completeQuest quest:4 GivePinkStoneAlice
+@completeQuest quest:"4 GivePinkStoneAlice"
 Тут немає Аліси, треба зайти до Хікарі, можливо вона там
 @addQuest quest:"5 FindAlice"
 

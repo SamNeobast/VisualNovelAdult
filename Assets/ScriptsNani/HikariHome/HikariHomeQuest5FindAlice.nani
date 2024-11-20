@@ -2,22 +2,29 @@
 @char Hikari
 @char Alice
 
-@comleteQuest quest:"5 FindAlice"
+@completeQuest quest:"5 FindAlice"
 Hikari: Мені теж потрібний рожевий камінчик, чому ти вирішила, що він дістанеться тобі?
 Alice: Я перша його про це попросила
-
 Hikari:  Ось {playerName} прийшов, нехай сам вирішить хто отримає камінчик
 
-@choice "Подарувати камінчик Алісі" goto: .GiveStoveAlice
-@choice "Подарувати камінчик Хікарі" goto: .GiveStoneHikari
-@choice "Залишити його собі" goto: .TakeForOneself
+@choice "Подарувати камінчик Алісі" goto:.GiveStoveAlice
+@choice "Подарувати камінчик Хікарі" goto:.GiveStoneHikari
+@choice "Залишити його собі" goto:.TakeForOneself
 
 @stop
 
 # GiveStoveAlice
 Alice: Дуже дякую {playerName}
-Hikari: Ідіть геть з мого дому, не хочу вас бачити!
-Alice:  {playerName} Пішли до мене додому я маю для тебе нагороду)
+Hikari: Я в шоці не хочу більше тут знаходитись!
+@hide Hikari
+Alice:  Тепер ми залишились наодинці і тебе чекає нагорода)
+@unlock CG/GiveStoneAlice
+@showUI GiveStoneAlice
+@wait i
+@hideUI GiveStoneAlice
+Hikari: Це було неймовірно
+@goto Map
+
 @stop
 
 # GiveStoneHikari
@@ -26,6 +33,13 @@ Alice: Я думала ти принесеш його мені
 Alice: Я йду до себе додому!
 @hide Alice
 Hikari: Тепер ми залишились наодинці і тебе чекає нагорода)
+@unlock CG/GiveStoneHikari
+@showUI GiveStoneHikari
+@wait i
+@hideUI GiveStoneHikari
+Hikari: Це було неймовірно
+@goto Map
+
 @stop
 
 # TakeForOneself
