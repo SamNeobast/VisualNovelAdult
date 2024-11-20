@@ -1,0 +1,13 @@
+@showUI QuestLog
+
+@checkQuest name:"2 CleanItem" gotoIfTrue:AliceHomeQuest1VisitAlice gotoIfTrueLabel:AfterMiniGame gotoIfFalse:AliceHomeAfterMiniGame gotoIfFalseLabel:DefaultAfterMiniGame
+
+# DefaultAfterMiniGame
+@back AliceBedroom
+
+Фух, нарешті завершив
+
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+@stop

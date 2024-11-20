@@ -12,8 +12,6 @@ public class AddQuestCommand : Command
         Quest quest = Resources.Load<Quest>($"Quests/{questName}");
         if (quest != null)
         {
-            Debug.Log(questName.ToString());
-
             QuestManager.Instance.AddQuest(quest);
 
             // Оновлюємо UI

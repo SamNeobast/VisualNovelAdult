@@ -197,12 +197,24 @@ MonoBehaviour:
     - name: AliceHome
       pathPrefix: Scripts
       guid: 17938e71e5e922441bfbdcf28a50956b
-    - name: StartMiniGame
+    - name: AliceHomeQuest1VisitAlice
+      pathPrefix: Scripts
+      guid: 6d70698e2c9af5547aa6814a65a57774
+    - name: AliceHomeStartMiniGame
       pathPrefix: Scripts
       guid: ce28f3058c59030439c5d30192d3621a
+    - name: AliceHomeAfterMiniGame
+      pathPrefix: Scripts
+      guid: 38538d415f113a4428bc2b055df153ae
+    - name: AliceHomeDefault
+      pathPrefix: Scripts
+      guid: 7f312300a6449764d8c905aa58a93d51
     - name: Wood
       pathPrefix: Scripts
       guid: f54c3eb6a4fe82a47ae686e2d39f2d0b
+    - name: WoodQuestFindPinkStone
+      pathPrefix: Scripts
+      guid: d5bf7332569b2224c92358a083ac89ec
   - Id: Characters/0ea146b9-6249-4567-aaaa-251238fcde07
     Resources:
     - name: idle

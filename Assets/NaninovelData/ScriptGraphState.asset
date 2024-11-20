@@ -16,28 +16,49 @@ MonoBehaviour:
   - scriptName: StartGame
     position:
       serializedVersion: 2
-      x: 593
-      y: 0
+      x: 922
+      y: -44
       width: 142
       height: 101
   - scriptName: Map
     position:
       serializedVersion: 2
-      x: 718
-      y: -269
-      width: 175
+      x: 370
+      y: -22
+      width: 179
       height: 149
   - scriptName: AliceHome
     position:
       serializedVersion: 2
-      x: 191
-      y: -314
-      width: 200
-      height: 173
-  - scriptName: StartMiniGame
+      x: 139
+      y: -265
+      width: 263
+      height: 149
+  - scriptName: AliceHomeStartMiniGame
     position:
       serializedVersion: 2
-      x: 20
-      y: 0
-      width: 137
+      x: -295
+      y: -469
+      width: 200
       height: 77
+  - scriptName: Wood
+    position:
+      serializedVersion: 2
+      x: -24
+      y: 123
+      width: 183
+      height: 437
+  - scriptName: AliceHomeQuestVisitAlice
+    position:
+      serializedVersion: 2
+      x: -1
+      y: -487
+      width: 263
+      height: 101
+  - scriptName: AliceHomeDefault
+    position:
+      serializedVersion: 2
+      x: -183
+      y: -613
+      width: 263
+      height: 101

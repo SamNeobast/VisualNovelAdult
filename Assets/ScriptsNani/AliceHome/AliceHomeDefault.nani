@@ -1,0 +1,12 @@
+@back AliceBedroom
+@char Alice
+
+Я зараз трішки зайнята, давай пізніше поговоримо
+ 
+@hide Alice
+
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+
+@stop

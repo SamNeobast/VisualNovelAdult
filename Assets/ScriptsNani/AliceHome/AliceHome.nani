@@ -1,0 +1,8 @@
+@hideChars
+
+@checkQuest name:"1 VisitAlice" gotoIfTrue:AliceHomeQuest1VisitAlice
+
+
+
+@goto AliceHomeDefault
+@stop

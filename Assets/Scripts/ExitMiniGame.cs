@@ -10,7 +10,7 @@ public class ExitMiniGame : MonoBehaviour
         inputManager.ProcessInput = true;
 
         var scriptPlayer = Engine.GetService<IScriptPlayer>();
-        scriptPlayer.PreloadAndPlayAsync("AliceHome", label: "AfterMiniGame").Forget();
+        scriptPlayer.PreloadAndPlayAsync("AliceHomeAfterMiniGame").Forget();
 
         var hidePrinter = new Naninovel.Commands.HidePrinter();
         hidePrinter.ExecuteAsync().Forget();

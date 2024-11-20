@@ -6,6 +6,7 @@
 Прокидайся, {playerName}! Я зайшла розбудити тебе
 Бачу ти прокинувся, тоді іди до Аліси вона просила, щоб ти їй допоміг
 
+@addQuest quest:"1 VisitAlice"
 @hide Hikari
-@choice  button:MapButtons/Map pos:300,200 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:300,200 handler:ButtonArea goto:Map
 
