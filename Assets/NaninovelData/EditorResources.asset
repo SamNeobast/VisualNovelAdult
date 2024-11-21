@@ -238,13 +238,13 @@ MonoBehaviour:
     - name: idle
       pathPrefix: Characters/Hikari
       guid: 0f964da979b891648bbe0473a3ddc51d
-    - name: angry
+    - name: Angry
       pathPrefix: Characters/Hikari
       guid: 56fc4b6ecf6c9684ba2a7ad74c704309
-    - name: sad
+    - name: Sad
       pathPrefix: Characters/Hikari
       guid: 95db6c0e2c15bd34f852ced7843d0512
-    - name: smile
+    - name: Happy
       pathPrefix: Characters/Hikari
       guid: a566cc7921978474893d5786776eaae3
   - Id: Characters/e67463fb-12ea-4907-8609-75afd53c93e7

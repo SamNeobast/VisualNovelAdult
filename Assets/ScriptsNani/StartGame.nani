@@ -1,5 +1,8 @@
 @back Lounge
 @bgm MainMusic
+@lock CG/GiveStoneAlice
+@lock CG/GiveStoneHikari
+
 @input playerName summary:"Введіть ваше ім'я"
 
 @stop
