@@ -25,40 +25,82 @@ MonoBehaviour:
       serializedVersion: 2
       x: 370
       y: -22
-      width: 179
+      width: 181
       height: 149
   - scriptName: AliceHome
     position:
       serializedVersion: 2
-      x: 139
-      y: -265
-      width: 263
-      height: 149
+      x: -39
+      y: -344
+      width: 174
+      height: 101
+  - scriptName: AliceHomeQuest1VisitAlice
+    position:
+      serializedVersion: 2
+      x: 105
+      y: -529
+      width: 257
+      height: 173
   - scriptName: AliceHomeStartMiniGame
     position:
       serializedVersion: 2
-      x: -295
-      y: -469
+      x: 381
+      y: -743
       width: 200
       height: 77
-  - scriptName: Wood
+  - scriptName: AliceHomeAfterMiniGame
     position:
       serializedVersion: 2
-      x: -24
-      y: 123
-      width: 183
-      height: 437
-  - scriptName: AliceHomeQuestVisitAlice
-    position:
-      serializedVersion: 2
-      x: -1
-      y: -487
-      width: 263
-      height: 101
+      x: 95
+      y: -750
+      width: 256
+      height: 149
   - scriptName: AliceHomeDefault
     position:
       serializedVersion: 2
-      x: -183
-      y: -613
-      width: 263
+      x: -318
+      y: -600
+      width: 257
+      height: 365
+  - scriptName: Wood
+    position:
+      serializedVersion: 2
+      x: -97
+      y: -43
+      width: 80
+      height: 77
+  - scriptName: WoodQuestFindPinkStone
+    position:
+      serializedVersion: 2
+      x: -374
+      y: -128
+      width: 202
+      height: 437
+  - scriptName: AliceHomeQuest4GivePinkStoneAlice
+    position:
+      serializedVersion: 2
+      x: 390
+      y: -510
+      width: 270
+      height: 125
+  - scriptName: HikariHome
+    position:
+      serializedVersion: 2
+      x: 277
+      y: 294
+      width: 180
       height: 101
+  - scriptName: HikariHomeDefault
+    position:
+      serializedVersion: 2
+      x: 491
+      y: 290
+      width: 245
+      height: 293
+  - scriptName: HikariHomeQuest5FindAlice
+    position:
+      serializedVersion: 2
+      x: 246
+      y: 425
+      width: 214
+      height: 293

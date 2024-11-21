@@ -23,7 +23,7 @@ MonoBehaviour:
     Culture=neutral, PublicKeyToken=null
   InitializationScript: 
   TitleScript: 
-  StartGameScript: StartGame
+  StartGameScript: HikariHomeQuest5FindAlice
   AutoAddScripts: 1
   HotReloadScripts: 1
   WatchScripts: 1
