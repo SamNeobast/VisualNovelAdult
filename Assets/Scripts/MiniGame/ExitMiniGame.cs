@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class ExitMiniGame : MonoBehaviour
 {
+    [SerializeField] private Canvas canvas;
+
     public void Exit()
     {
         var inputManager = Engine.GetService<IInputManager>();
@@ -19,5 +21,11 @@ public class ExitMiniGame : MonoBehaviour
         naniCamera.enabled = true;
 
         SceneManager.LoadScene("NaniScene");
+    }
+
+
+    public void CloseCanvas()
+    {
+        canvas.gameObject.SetActive(false);
     }
 }

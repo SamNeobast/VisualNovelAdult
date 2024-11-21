@@ -58,10 +58,12 @@ namespace DTT.MinigameBase.LevelSelect
         /// The integer value of the level number this button displays.
         /// </summary>
         private int _levelNumber;
-        
+
         /// <summary>
         /// The integer value of the level number this button displays.
         /// </summary>
+        /// 
+
         public int LevelNumber
         {
             get => _levelNumber;
