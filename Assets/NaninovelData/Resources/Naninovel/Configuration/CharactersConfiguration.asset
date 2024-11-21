@@ -99,7 +99,7 @@ MonoBehaviour:
       NameColor: {r: 1, g: 1, b: 1, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
-      HighlightCharacterCount: 0
+      HighlightCharacterCount: 10
       SpeakingPose: 
       NotSpeakingPose: 
       PlaceOnTop: 1

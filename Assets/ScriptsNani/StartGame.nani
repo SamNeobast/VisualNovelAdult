@@ -1,11 +1,14 @@
 @back Lounge
+@bgm MainMusic
 @input playerName summary:"Введіть ваше ім'я"
+
 @stop
 
 @char Hikari
-Прокидайся, {playerName}! Я зайшла до тебе розбудити на роботу
-Бачу ти прокинувся, тоді іди до Аліси вона тобі покаже твоє робоче місце
+Прокидайся, {playerName}! Я зайшла розбудити тебе
+Бачу ти прокинувся, тоді іди до Аліси вона просила, щоб ти їй допоміг
 
+@addQuest quest:"1 VisitAlice"
 @hide Hikari
-@choice  button:MapButtons/Map pos:300,200 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:300,200 handler:ButtonArea goto:Map
 

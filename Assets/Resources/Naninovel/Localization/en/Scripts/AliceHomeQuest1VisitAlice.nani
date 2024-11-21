@@ -1,0 +1,25 @@
+; Ukrainian <uk> to English <en> localization document for `AliceHomeQuest1VisitAlice` naninovel script
+
+# c489d2ec
+; Привіт {PlayerName}, рада тебе бачити, думала ти уже не прийдеш
+Hello {PlayerName}, glad to see you, I thought you wouldn't come.
+
+# 189d106e
+; Допоможи мені прибрати речі
+Help me clean up the stuff.
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+# 96f3a6
+; Дякую за допомогу, тепер тобі треба піти на секретне місце і знайти рожевий камінчик
+Thanks for your help, now you need to go to the secret place and find a pink stone.
+
+# 4d94e08e
+; @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame

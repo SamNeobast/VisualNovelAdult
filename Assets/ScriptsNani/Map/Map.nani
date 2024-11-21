@@ -1,0 +1,13 @@
+@hideChars
+@stopBgm 
+@bgm MapMusic
+@back Lounge
+@showUI QuestLog
+ 
+Я у себе в кімнаті, куди мені піти?
+
+@choice  button:InteractiveMapButtons/AliceHome pos:600,-150 handler:ButtonArea goto:AliceHome
+@choice  button:InteractiveMapButtons/HikariHome pos:-300,200 handler:ButtonArea goto:HikariHome
+@choice  button:InteractiveMapButtons/Item pos:600,400 handler:ButtonArea goto:Wood
+
+@stop

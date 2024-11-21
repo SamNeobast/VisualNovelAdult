@@ -1,0 +1,17 @@
+; Ukrainian <uk> to English <en> localization document for `StartGame` naninovel script
+
+# 140066ac
+; @input playerName summary:"Введіть ваше ім'я"
+@input playerName summary:"Enter your name"
+
+# 8cac841b
+; Прокидайся, {playerName}! Я зайшла розбудити тебе
+Wake up, {playerName}! I came to wake you up.
+
+# 7cf29a65
+; Бачу ти прокинувся, тоді іди до Аліси вона просила, щоб ти їй допоміг
+I see you're awake, now go to Alice, she asked for your help.
+
+# 901edc2c
+; @choice  button:InteractiveMapButtons/Map pos:300,200 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:300,200 handler:ButtonArea goto:Map

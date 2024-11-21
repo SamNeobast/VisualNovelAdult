@@ -1,7 +1,0 @@
-@back Lounge
-Я у себе в кімнаті, куди мені піти?
-@choice  button:MapButtons/AliceHome pos:600,-150 handler:ButtonArea goto:AliceHome
-@choice  button:MapButtons/HikariHome pos:-300,200 handler:ButtonArea goto:Map
-@choice  button:MapButtons/Item pos:600,400 handler:ButtonArea goto:Map
-
-@stop

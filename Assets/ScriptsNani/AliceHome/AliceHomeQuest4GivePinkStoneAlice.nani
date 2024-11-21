@@ -1,0 +1,11 @@
+
+
+@completeQuest quest:"4 GivePinkStoneAlice"
+Тут немає Аліси, треба зайти до Хікарі, можливо вона там
+@addQuest quest:"5 FindAlice"
+
+
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+@stop

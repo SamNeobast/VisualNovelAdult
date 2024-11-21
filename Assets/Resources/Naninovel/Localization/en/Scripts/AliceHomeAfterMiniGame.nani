@@ -1,0 +1,13 @@
+; Ukrainian <uk> to English <en> localization document for `AliceHomeAfterMiniGame` naninovel script
+
+# 97bab5fb
+; Фух, нарешті завершив
+Phew, finally done.
+
+# 4d94e08e
+; @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame

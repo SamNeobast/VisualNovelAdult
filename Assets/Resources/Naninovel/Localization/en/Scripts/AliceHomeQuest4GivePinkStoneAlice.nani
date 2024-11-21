@@ -1,0 +1,13 @@
+; Ukrainian <uk> to English <en> localization document for `AliceHomeQuest4GivePinkStoneAlice` naninovel script
+
+# dd021990
+; Тут немає Аліси, треба зайти до Хікарі, можливо вона там
+Alice is not here, you should visit Hikari, maybe she's there.
+
+# 4d94e08e
+; @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame

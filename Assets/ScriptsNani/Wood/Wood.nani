@@ -1,0 +1,5 @@
+@hideChars
+
+@checkQuest name:"3 FindPinkStone" gotoIfTrue:WoodQuestFindPinkStone gotoIfFalse:Map 
+
+@stop

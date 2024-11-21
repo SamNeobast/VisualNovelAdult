@@ -1,0 +1,73 @@
+; Ukrainian <uk> to English <en> localization document for `HikariHomeQuest5FindAlice` naninovel script
+
+# 7872d6bd
+; Hikari: Мені теж потрібний рожевий камінчик, чому ти вирішила, що він дістанеться тобі?
+Hikari: I also need the pink stone, why do you think it should go to you?
+
+# 2de6e4d
+; Alice: Я перша його про це попросила
+Alice: I asked for it first.
+
+# 60955862
+; Hikari:  Ось {playerName} прийшов, нехай сам вирішить хто отримає камінчик
+Hikari: Here comes {playerName}, let them decide who gets the stone.
+
+# fe6279b9
+; @choice "Подарувати камінчик Алісі" goto:.GiveStoveAlice
+@choice "Give the stone to Alice" goto:.GiveStoveAlice
+
+# 1283b46
+; @choice "Подарувати камінчик Хікарі" goto:.GiveStoneHikari
+@choice "Give the stone to Hikari" goto:.GiveStoneHikari
+
+# a7cb86ac
+; @choice "Залишити його собі" goto:.TakeForOneself
+@choice "Keep it for yourself" goto:.TakeForOneself
+
+# d4a74a84
+; Alice: Дуже дякую {playerName}
+Alice: Thank you so much, {playerName}.
+
+# af0a9f5e
+; Hikari: Я в шоці не хочу більше тут знаходитись!
+Hikari: I'm shocked, I don't want to stay here any longer!
+
+# 245a3966
+; Alice:  Тепер ми залишились наодинці і тебе чекає нагорода)
+Alice: Now we’re alone, and your reward awaits. ;)
+
+# 4f42817c
+; Hikari: Це було неймовірно
+Hikari: That was incredible.
+
+# 1cf2c611
+; Hikari: Дуже дякую {playerName}
+Hikari: Thank you so much, {playerName}.
+
+# edb59f2c
+; Alice: Я думала ти принесеш його мені
+Alice: I thought you’d bring it to me.
+
+# 2c6c8ece
+; Alice: Я йду до себе додому!
+Alice: I’m going home!
+
+# 81d4a6da
+; Hikari: Тепер ми залишились наодинці і тебе чекає нагорода)
+Hikari: Now we’re alone, and your reward awaits. ;)
+
+# 4f42817c
+; Hikari: Це було неймовірно
+Hikari: That was incredible.
+
+# 32fe0f04
+; Hikari: Ну і залишай цей мусор собі!
+Hikari: Fine, keep that trash for yourself!
+
+# db8238fb
+; Alice: Він мені тоже не дуже був потрібний
+Alice: I didn’t really need it anyway.
+
+# 43f9b5cf
+; Hikari: Геть двоє з мого дому!
+Hikari: Both of you, get out of my house!

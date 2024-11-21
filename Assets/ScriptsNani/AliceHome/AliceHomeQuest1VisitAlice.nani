@@ -1,0 +1,27 @@
+@back AliceBedroom
+@char Alice
+
+
+Привіт {PlayerName}, рада тебе бачити, думала ти уже не прийдеш
+@completeQuest quest:"1 VisitAlice"
+Допоможи мені прибрати речі
+@addQuest quest:"2 CleanItem"
+
+@hide Alice
+
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@stop
+
+# AfterMiniGame
+@char Alice
+
+@completeQuest quest:"2 CleanItem"
+Дякую за допомогу, тепер тобі треба піти на секретне місце і знайти рожевий камінчик
+@addQuest quest:"3 FindPinkStone"
+
+@hide Alice
+
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+@stop

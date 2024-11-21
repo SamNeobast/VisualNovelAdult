@@ -1,0 +1,69 @@
+@back HikariBedroom
+@char Hikari
+@char Alice
+
+@completeQuest quest:"5 FindAlice"
+Hikari: Мені теж потрібний рожевий камінчик, чому ти вирішила, що він дістанеться тобі?
+Alice: Я перша його про це попросила
+Hikari:  Ось {playerName} прийшов, нехай сам вирішить хто отримає камінчик
+
+@choice "Подарувати камінчик Алісі" goto:.GiveStoveAlice
+@choice "Подарувати камінчик Хікарі" goto:.GiveStoneHikari
+@choice "Залишити його собі" goto:.TakeForOneself
+
+@stop
+
+# GiveStoveAlice
+@set MainItemOwner="Alice"
+
+Alice: Дуже дякую {playerName}
+Hikari: Я в шоці не хочу більше тут знаходитись!
+@hide Hikari
+Alice:  Тепер ми залишились наодинці і тебе чекає нагорода)
+
+@stopBgm 
+@bgm groanAlice
+@unlock CG/GiveStoneAlice
+@showUI GiveStoneAlice
+@wait i
+@hideUI GiveStoneAlice
+@stopBgm 
+@bgm MainMusic
+
+Hikari: Це було неймовірно
+@goto Map
+
+@stop
+
+# GiveStoneHikari
+@set MainItemOwner="Hikari"
+
+Hikari: Дуже дякую {playerName}
+Alice: Я думала ти принесеш його мені
+Alice: Я йду до себе додому!
+@hide Alice
+Hikari: Тепер ми залишились наодинці і тебе чекає нагорода)
+
+@stopBgm 
+@bgm groanHikari
+@unlock CG/GiveStoneHikari
+@showUI GiveStoneHikari
+@wait i
+@hideUI GiveStoneHikari
+@stopBgm 
+@bgm MainMusic
+
+Hikari: Це було неймовірно
+@goto Map
+
+@stop
+
+# TakeForOneself
+@set MainItemOwner="Player"
+
+Hikari: Ну і залишай цей мусор собі!
+Alice: Він мені тоже не дуже був потрібний
+Hikari: Геть двоє з мого дому!
+
+@goto Map
+@stop

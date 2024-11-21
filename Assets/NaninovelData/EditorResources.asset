@@ -156,7 +156,7 @@ MonoBehaviour:
       guid: f5aae572225ee1b4c96d1a17fc5cb073
     - name: TitleUI
       pathPrefix: UI
-      guid: 4b121aa1be1b7e04480b452c595ff17a
+      guid: ebbc91a42bf53674aafb09fac7d5d290
     - name: VariableInputUI
       pathPrefix: UI
       guid: bb95f484e341dcd4391a572f22b7d067
@@ -166,6 +166,15 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: QuestLog
+      pathPrefix: UI
+      guid: a1eeb00d636c25446bdbe1c5ba8db5d7
+    - name: GiveStoneHikari
+      pathPrefix: UI
+      guid: ac3730f44cbdad149970f3a4d415e01e
+    - name: GiveStoneAlice
+      pathPrefix: UI
+      guid: bd68e09f101616b4db31cbedf3b74656
   - Id: Backgrounds/7b00b04a-bd9e-49e3-8fd0-80245e105714
     Resources:
     - name: AliceBedroom
@@ -180,6 +189,9 @@ MonoBehaviour:
     - name: MapSity
       pathPrefix: Backgrounds/MainBackground
       guid: 9c5b9b893a5e80d4cb0e6814652c6056
+    - name: Wood
+      pathPrefix: Backgrounds/MainBackground
+      guid: f78b3756fa4ac644fb93c8e6e363a74b
   - Id: Scripts
     Resources:
     - name: StartGame
@@ -191,6 +203,36 @@ MonoBehaviour:
     - name: AliceHome
       pathPrefix: Scripts
       guid: 17938e71e5e922441bfbdcf28a50956b
+    - name: AliceHomeQuest1VisitAlice
+      pathPrefix: Scripts
+      guid: 6d70698e2c9af5547aa6814a65a57774
+    - name: AliceHomeStartMiniGame
+      pathPrefix: Scripts
+      guid: ce28f3058c59030439c5d30192d3621a
+    - name: AliceHomeAfterMiniGame
+      pathPrefix: Scripts
+      guid: 38538d415f113a4428bc2b055df153ae
+    - name: AliceHomeDefault
+      pathPrefix: Scripts
+      guid: 7f312300a6449764d8c905aa58a93d51
+    - name: Wood
+      pathPrefix: Scripts
+      guid: f54c3eb6a4fe82a47ae686e2d39f2d0b
+    - name: WoodQuestFindPinkStone
+      pathPrefix: Scripts
+      guid: d5bf7332569b2224c92358a083ac89ec
+    - name: AliceHomeQuest4GivePinkStoneAlice
+      pathPrefix: Scripts
+      guid: 2fed1c3f30579d941ab8af98b8c0c123
+    - name: HikariHome
+      pathPrefix: Scripts
+      guid: 395f848ab8837fe418f28ba950f8e0a1
+    - name: HikariHomeDefault
+      pathPrefix: Scripts
+      guid: 16043cc468de6c24c8324dfb35647161
+    - name: HikariHomeQuest5FindAlice
+      pathPrefix: Scripts
+      guid: 2270f8b5731903049aeb7aee93e907e3
   - Id: Characters/0ea146b9-6249-4567-aaaa-251238fcde07
     Resources:
     - name: idle
@@ -221,3 +263,33 @@ MonoBehaviour:
       guid: 7116fff6254d40d4b8e95e6bc3d2bc18
   - Id: CharacterAvatars
     Resources: []
+  - Id: Movies
+    Resources: []
+  - Id: Unlockables
+    Resources:
+    - name: CG/GiveStoneHikari
+      pathPrefix: Unlockables
+      guid: 10ee7b3bc8b84ad4ba580f31e70f0b6c
+    - name: CG/GiveStoneAlice
+      pathPrefix: Unlockables
+      guid: e988fd33494ed3145bdb93ca89ae395f
+  - Id: Audio
+    Resources:
+    - name: groanAlice
+      pathPrefix: Audio
+      guid: 6d18a3eff6cf11a46ac1cd8960e0450f
+    - name: groanHikari
+      pathPrefix: Audio
+      guid: 53c228a3829b3794ebf6073a4ac9c0bd
+    - name: MainMusic
+      pathPrefix: Audio
+      guid: 526562c025e362146a9752f08fed1f65
+    - name: MapMusic
+      pathPrefix: Audio
+      guid: 8707e9abfa9055548ba4895b51282693
+    - name: WoodMusic
+      pathPrefix: Audio
+      guid: 4a70dd4e2f6037d4c8c014602cf4a494
+    - name: MiniGameMusic
+      pathPrefix: Audio
+      guid: 5a334b080c5cf144488e88a6ce11f8d9

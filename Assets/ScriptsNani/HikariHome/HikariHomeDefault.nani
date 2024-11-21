@@ -1,0 +1,33 @@
+@back HikariBedroom
+
+@if MainItemOwner=="Hikari"
+@goto .GoodRelationshipWithHikari
+@elseif MainItemOwner=="Alice" || MainItemOwner=="Player"
+@goto .BadRelationshipWithHikari
+@else
+@goto .NeutralRelationshipWithHikari
+@endif
+@stop
+
+# GoodRelationshipWithHikari
+Hikari.Happy:  {playerName}, рада тебе бачити, вибач але я трішки зайнята
+@hide Hikari
+
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+@stop
+
+
+# NeutralRelationshipWithHikari
+@char Hikari
+{playerName}, я зараз трішки зайнята, давай пізніше поговоримо
+@hide Hikari
+
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+@stop
+
+# BadRelationshipWithHikari
+Hikari.Angry:  {playerName}, я не маю на тебе часу іди звідси!
+@hide Hikari
+
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+@stop
