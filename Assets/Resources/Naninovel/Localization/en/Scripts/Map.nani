@@ -1,0 +1,17 @@
+; Ukrainian <uk> to English <en> localization document for `Map` naninovel script
+
+# bfbefa03
+; Я у себе в кімнаті, куди мені піти?
+I'm in my room, where should I go?
+
+# e2442ae9
+; @choice  button:InteractiveMapButtons/AliceHome pos:600,-150 handler:ButtonArea goto:AliceHome
+@choice  button:InteractiveMapButtons/AliceHome pos:600,-150 handler:ButtonArea goto:AliceHome
+
+# 9ef60896
+; @choice  button:InteractiveMapButtons/HikariHome pos:-300,200 handler:ButtonArea goto:HikariHome
+@choice  button:InteractiveMapButtons/HikariHome pos:-300,200 handler:ButtonArea goto:HikariHome
+
+# 4477243c
+; @choice  button:InteractiveMapButtons/Item pos:600,400 handler:ButtonArea goto:Wood
+@choice  button:InteractiveMapButtons/Item pos:600,400 handler:ButtonArea goto:Wood

@@ -1,0 +1,61 @@
+; Ukrainian <uk> to English <en> localization document for `WoodQuestFindPinkStone` naninovel script
+
+# 6c1cbefd
+; Треба Знайти камінчик
+I need to find the stone.
+
+# dcde5b1
+; @choice  button:InteractiveStoneItem/PinkStone pos:600,-150 handler:ButtonArea goto:.TrueChoice
+@choice  button:InteractiveStoneItem/PinkStone pos:600,-150 handler:ButtonArea goto:.TrueChoice
+
+# b3f0824d
+; @choice  button:InteractiveStoneItem/BlueStone pos:600,200 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/BlueStone pos:600,200 handler:ButtonArea goto:.BadChoice
+
+# 3a9cd83e
+; @choice  button:InteractiveStoneItem/RedStone pos:-450,-100 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/RedStone pos:-450,-100 handler:ButtonArea goto:.BadChoice
+
+# 190e5a8
+; @choice  button:InteractiveStoneItem/YellowStone pos:300,-120 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/YellowStone pos:300,-120 handler:ButtonArea goto:.BadChoice
+
+# 6ec21b19
+; @choice  button:InteractiveStoneItem/VioletStone pos:-150,-150 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/VioletStone pos:-150,-150 handler:ButtonArea goto:.BadChoice
+
+# 31e91bc
+; @choice  button:InteractiveStoneItem/GreenStone pos:-700,0 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/GreenStone pos:-700,0 handler:ButtonArea goto:.BadChoice
+
+# 7642bd5f
+; Не схоже на те що просила Аліса
+This doesn't look like what Alice asked for.
+
+# dcde5b1
+; @choice  button:InteractiveStoneItem/PinkStone pos:600,-150 handler:ButtonArea goto:.TrueChoice
+@choice  button:InteractiveStoneItem/PinkStone pos:600,-150 handler:ButtonArea goto:.TrueChoice
+
+# b3f0824d
+; @choice  button:InteractiveStoneItem/BlueStone pos:600,200 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/BlueStone pos:600,200 handler:ButtonArea goto:.BadChoice
+
+# 3a9cd83e
+; @choice  button:InteractiveStoneItem/RedStone pos:-450,-100 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/RedStone pos:-450,-100 handler:ButtonArea goto:.BadChoice
+
+# 190e5a8
+; @choice  button:InteractiveStoneItem/YellowStone pos:300,-120 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/YellowStone pos:300,-120 handler:ButtonArea goto:.BadChoice
+
+# 6ec21b19
+; @choice  button:InteractiveStoneItem/VioletStone pos:-150,-150 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/VioletStone pos:-150,-150 handler:ButtonArea goto:.BadChoice
+
+# 31e91bc
+; @choice  button:InteractiveStoneItem/GreenStone pos:-700,0 handler:ButtonArea goto:.BadChoice
+@choice  button:InteractiveStoneItem/GreenStone pos:-700,0 handler:ButtonArea goto:.BadChoice
+
+# 2535b0b5
+; О я знайшов рожевий камінчик, тепер потрібно віднести його Алісі
+Oh, I found the pink stone. Now I need to take it to Alice.

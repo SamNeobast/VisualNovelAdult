@@ -273,3 +273,23 @@ MonoBehaviour:
     - name: CG/GiveStoneAlice
       pathPrefix: Unlockables
       guid: e988fd33494ed3145bdb93ca89ae395f
+  - Id: Audio
+    Resources:
+    - name: groanAlice
+      pathPrefix: Audio
+      guid: 6d18a3eff6cf11a46ac1cd8960e0450f
+    - name: groanHikari
+      pathPrefix: Audio
+      guid: 53c228a3829b3794ebf6073a4ac9c0bd
+    - name: MainMusic
+      pathPrefix: Audio
+      guid: 526562c025e362146a9752f08fed1f65
+    - name: MapMusic
+      pathPrefix: Audio
+      guid: 8707e9abfa9055548ba4895b51282693
+    - name: WoodMusic
+      pathPrefix: Audio
+      guid: 4a70dd4e2f6037d4c8c014602cf4a494
+    - name: MiniGameMusic
+      pathPrefix: Audio
+      guid: 5a334b080c5cf144488e88a6ce11f8d9

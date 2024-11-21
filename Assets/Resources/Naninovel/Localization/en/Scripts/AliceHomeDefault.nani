@@ -1,0 +1,37 @@
+; Ukrainian <uk> to English <en> localization document for `AliceHomeDefault` naninovel script
+
+# dacd57fd
+; Alice.Happy:  {playerName}, рада тебе бачити, вибач але я трішки зайнята
+Alice.Happy:  {playerName}, glad to see you, sorry, but I'm a bit busy.
+
+# 4d94e08e
+; @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+# 297354b
+; {playerName}, я зараз трішки зайнята, давай пізніше поговоримо
+{playerName}, I'm a bit busy right now, let's talk later.
+
+# 4d94e08e
+; @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+
+# 3d8ab0e0
+; Alice.Angry:  {playerName}, я не маю на тебе часу іди звідси!
+Alice.Angry:  {playerName}, I don't have time for you, go away!
+
+# 4d94e08e
+; @choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:-700,150 handler:ButtonArea goto:Map
+
+# 7b3aee78
+; @choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame
+@choice  button:InteractiveMapButtons/Work pos:700,150 handler:ButtonArea goto:AliceHomeStartMiniGame

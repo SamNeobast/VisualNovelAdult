@@ -1,7 +1,9 @@
 @hideChars
-
+@stopBgm 
+@bgm MapMusic
 @back Lounge
 @showUI QuestLog
+ 
 Я у себе в кімнаті, куди мені піти?
 
 @choice  button:InteractiveMapButtons/AliceHome pos:600,-150 handler:ButtonArea goto:AliceHome

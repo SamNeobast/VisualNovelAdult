@@ -1,4 +1,6 @@
 @showUI QuestLog
+@stopBgm 
+@bgm MainMusic
 
 @checkQuest name:"2 CleanItem" gotoIfTrue:AliceHomeQuest1VisitAlice gotoIfTrueLabel:AfterMiniGame gotoIfFalse:AliceHomeAfterMiniGame gotoIfFalseLabel:DefaultAfterMiniGame
 

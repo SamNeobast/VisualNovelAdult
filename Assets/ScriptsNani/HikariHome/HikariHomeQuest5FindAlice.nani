@@ -20,10 +20,16 @@ Alice: Дуже дякую {playerName}
 Hikari: Я в шоці не хочу більше тут знаходитись!
 @hide Hikari
 Alice:  Тепер ми залишились наодинці і тебе чекає нагорода)
+
+@stopBgm 
+@bgm groanAlice
 @unlock CG/GiveStoneAlice
 @showUI GiveStoneAlice
 @wait i
 @hideUI GiveStoneAlice
+@stopBgm 
+@bgm MainMusic
+
 Hikari: Це було неймовірно
 @goto Map
 
@@ -37,10 +43,16 @@ Alice: Я думала ти принесеш його мені
 Alice: Я йду до себе додому!
 @hide Alice
 Hikari: Тепер ми залишились наодинці і тебе чекає нагорода)
+
+@stopBgm 
+@bgm groanHikari
 @unlock CG/GiveStoneHikari
 @showUI GiveStoneHikari
 @wait i
 @hideUI GiveStoneHikari
+@stopBgm 
+@bgm MainMusic
+
 Hikari: Це було неймовірно
 @goto Map
 

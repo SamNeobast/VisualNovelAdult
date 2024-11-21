@@ -1,5 +1,7 @@
 @back Lounge
+@bgm MainMusic
 @input playerName summary:"Введіть ваше ім'я"
+
 @stop
 
 @char Hikari

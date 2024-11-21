@@ -1,4 +1,6 @@
 @hideChars
+@stopBgm 
+@bgm MainMusic
 
 @checkQuest name:"5 FindAlice" gotoIfTrue:HikariHomeQuest5FindAlice
 

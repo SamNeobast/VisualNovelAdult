@@ -1,0 +1,25 @@
+; Ukrainian <uk> to English <en> localization document for `HikariHomeDefault` naninovel script
+
+# 8a4084ad
+; Hikari.Happy:  {playerName}, рада тебе бачити, вибач але я трішки зайнята
+Hikari.Happy:  {playerName}, glad to see you, sorry but I'm a bit busy.
+
+# c3cb18c0
+; @choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+
+# 297354b
+; {playerName}, я зараз трішки зайнята, давай пізніше поговоримо
+{playerName}, I'm a bit busy right now, let's talk later.
+
+# c3cb18c0
+; @choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+
+# 8e772f58
+; Hikari.Angry:  {playerName}, я не маю на тебе часу іди звідси!
+Hikari.Angry:  {playerName}, I don't have time for you, go away!
+
+# c3cb18c0
+; @choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map
+@choice  button:InteractiveMapButtons/Map pos:500,150 handler:ButtonArea goto:Map

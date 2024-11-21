@@ -1,4 +1,6 @@
 @hideUI QuestLog
+@stopBgm 
+@bgm MiniGameMusic
 
 @MiniGame
 
